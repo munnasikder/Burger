@@ -1,0 +1,438 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #3d2514;	
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+	background-color: #ffc657;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.menu{
+	padding-top: 5px;
+	width: 70%;
+	/*border: 1px solid blue;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	font-family: 'Bebas Neue', cursive;
+	text-decoration: none;
+	margin: 0 50px;
+	text-transform: uppercase;
+	color: #3d2514;
+	font-size: 16px;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 80px 0;
+	background-color: #ffc657;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+.b_content{
+	width: 30%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.b_content p{
+	font-family: 'Bebas Neue', Regular;
+    border: 1px dashed #3d2514;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+}
+.b_content h1{
+	font-family: 'Alfa Slab One', Regular;
+    font-size: 78px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.b_content h2{
+	font-family: 'Alfa Slab One', Regular;
+	font-size: 50px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.b_img{
+	position: relative;
+	width: 50%;
+	min-height: 500px;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.b_img img{
+	/*width: 100%;*/
+}
+.burger{
+	bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.drinks{
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+.french{
+	bottom: 0;
+	right: 305px;
+	position: absolute;
+}
+.price{
+	background-color: #bf2222;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -33px;
+	left: 50px;
+	text-align: center;
+	border: 1px dashed;
+	border-color: #fff;
+	border-width: initial;
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+}
+/*banner end*/
+/*popular start*/
+.popular{
+	padding: 80px 0;
+}
+.p_left{
+	width: 45%;
+	float: left;
+	position: relative;
+	/*border: 1px solid;*/
+}
+.p_img{
+}
+.img2{
+	margin-bottom: 30px;
+}
+.img3{}
+.p_img img{	
+	width: 100%;
+}
+.first_txt{
+	font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-weight: 400;
+}
+.second_txt{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+.p_right{
+	width: 45%;
+	float: right;
+	position: relative;
+	/*border: 1px solid;*/
+}
+.first_txt1{
+	font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    position: absolute;
+    top: 215px;
+    left: 25px;
+    font-weight: 400;
+}
+.second_txt1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+	position: absolute;
+	top: 223px;
+	left: 25px;
+}
+/*popular end*/
+/*gallery start*/
+.gallery{
+	padding-top: 330px;
+}
+.g_content{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.button1{
+	font-family: 'Bebas Neue', Bold;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+	background-color: #ffc045;
+	padding: 10px;
+	border: none;
+}
+.g_content h1{
+	font-family: 'Alfa Slab One', Regular;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.g_content p{
+	font-size: 16px;
+}
+.single{
+	width: 27%;
+    float: left;
+    /*border: 1px solid;*/
+    margin-right: 6%;
+    padding: 10px 1% 35px;
+}
+.single:last-child{
+	margin-right: 0;
+}
+.s_img{}
+.s_img img {
+	/*border: 1px solid;*/
+	width: 100%;
+}
+.s_content{
+	text-align: center;
+}
+.s_content h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+}
+.s_content p{
+	font-size: 16px;
+}
+.button2{
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #bf2222;
+	padding: 10px;
+	border-style: none;
+}
+/*gallery end*/
+/*event start*/
+.event{
+	padding: 100px 0;
+}
+.e_content{
+	width: 30%;
+	float: left;
+	/*border: 1px solid red;*/
+	margin-left: 100px;
+}
+.e_content h2{
+	margin: 0;
+    color: #3d3d3d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
+.e_content h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0;
+}
+.e_content p{
+	color: #3d3d3d;
+	font-size: 18px;
+	/*text-align: justify;*/
+}
+.e_img{
+	width: 50%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.e_img img{
+	width: 100%;
+}
+/*event end*/
+/*reservation start*/
+.reservation{
+	padding-top: 330px;
+
+}
+.wrapper{
+	
+}
+.form_img{
+	position: relative;
+}
+.form_img img{
+	
+}
+.r1{
+	position: absolute;
+    top: -140px;
+	left: 0;
+}
+.r2{
+	position: absolute;
+    bottom: -473px;
+    left: 140px;
+
+}
+.r3{
+	position: absolute;
+	right: 0;
+    bottom: -632px;
+}
+.r_form{
+	text-align: center;
+}
+.r_form h2{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+.r_form h1{	
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+form{	
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+input{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    width: 35%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: #bebebe;
+}
+.button3{
+	width: 40%;
+    background-color: #bf2222;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+}
+/*reservation end*/
+/*footer start*/
+footer{
+
+}
+.f_banner{
+	background-image: url(../images/fbanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    margin-top: 170px;
+    margin-bottom: 70px;
+
+}
+.f_left{
+	width: 40%;
+    /*border: 1px solid #fff;*/
+    float: left;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.f_logo{
+	
+}
+.f_logo img{
+	margin-bottom: 30px;
+}
+.f_content{}
+.f_content p{
+	color: #fff;
+}
+.f_content h2{
+	font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.f_right{
+	width: 30%;
+    /*border: 1px solid #fff;*/
+    float: right;
+    margin-top: 240px;
+}
+.r_content{}
+.r_content img{
+	width: 25px;
+    height: 25px;
+}
+.r_content p{}
+.fr{
+	font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 60px;
+    margin-top: -25px;
+}
+.f_menu{
+	margin-top: 130px;
+}
+.f_menu ul {
+	float: right;
+    margin: 0;
+}
+.f_menu ul li{
+	list-style: none;
+    display: inline;
+}
+.f_menu ul li a{
+	margin-left: 10px;
+
+}
+.f_menu ul li:nth-child(4){
+	margin-right: 25px;
+
+}
+/*footer end*/
+
+
+
+
